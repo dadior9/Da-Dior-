@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Da Dior — About Me</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Arial,Helvetica,sans-serif;background:#070707;color:#f5f5f5;line-height:1.6}
+  nav{position:fixed;top:0;width:100%;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:rgba(7,7,7,.85);backdrop-filter:blur(12px);z-index:5}
+  .logo{font-size:22px;font-weight:800;letter-spacing:3px}
+  .alien{font-size:24px}
+  nav a{color:#aaa;text-decoration:none;margin-left:24px;font-size:14px}
+  nav a:hover{color:white}
+  .hero{min-height:100vh;display:flex;align-items:center;padding:120px 8% 70px;background:radial-gradient(circle at 75% 35%,#292929 0,#111 28%,#070707 65%)}
+  .hero h1{font-size:clamp(55px,11vw,145px);line-height:.88;letter-spacing:-6px}
+  .hero h1 span{display:block;color:#999}
+  .tag{margin-top:28px;max-width:560px;color:#bdbdbd;font-size:18px}
+  .button{display:inline-block;margin-top:30px;padding:13px 22px;border:1px solid #555;border-radius:30px;color:#fff;text-decoration:none}
+  section{padding:100px 8%;max-width:1200px;margin:auto}
+  .label{color:#777;letter-spacing:4px;font-size:12px;text-transform:uppercase;margin-bottom:12px}
+  h2{font-size:48px;margin-bottom:25px}
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+  .about p{color:#bdbdbd;font-size:18px}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}
+  .card{border:1px solid #292929;border-radius:22px;padding:28px;background:#0d0d0d}
+  .card b{font-size:18px}.card p{color:#888;margin-top:8px}
+  .quote{font-size:clamp(30px,5vw,65px);line-height:1.05;max-width:950px}
+  footer{text-align:center;padding:45px 20px;border-top:1px solid #202020;color:#777}
+  @media(max-width:700px){.about,.cards{grid-template-columns:1fr}h2{font-size:38px}.hero h1{letter-spacing:-3px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">DA DIOR <span class="alien">👽</span></div>
+  <div><a href="#about">About</a><a href="#vision">Vision</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="label">Creator • Fashion • Vision</div>
+    <h1>DA<br><span>DIOR.</span></h1>
+    <p class="tag">A personal space for my story, my fashion journey, and the ideas behind the Da Dior identity.</p>
+    <a class="button" href="#about">Discover my story ↓</a>
+  </div>
+</header>
+
+<section id="about">
+  <div class="about">
+    <div>
+      <div class="label">About Me</div>
+      <h2>Meet Da Dior.</h2>
+    </div>
+    <div>
+      <p>I’m Da Dior — a young creative with a strong love for fashion, style and original ideas. I’m building a personal identity around creativity, confidence and designs that feel different.</p>
+      <p style="margin-top:18px">Da Dior is more than a name to me. It represents the goal of creating pieces and ideas that people remember.</p>
+    </div>
+  </div>
+</section>
+
+<section id="vision">
+  <div class="label">The Vision</div>
+  <h2>More than just fashion.</h2>
+  <p class="quote">“Create differently. Wear your identity. Leave a mark.”</p>
+  <div class="cards">
+    <div class="card"><b>01 — Fashion</b><p>Original streetwear and footwear concepts with a futuristic edge.</p></div>
+    <div class="card"><b>02 — Creativity</b><p>Turning ideas into visual designs, logos and memorable concepts.</p></div>
+    <div class="card"><b>03 — Identity</b><p>Building a recognizable world around the Da Dior name and 👽 symbol.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="label">Connect</div>
+  <h2>Follow the journey.</h2>
+  <p style="color:#aaa">Add your Instagram, TikTok, email and other social links here when you're ready.</p>
+</section>
+
+<footer>© 2026 Da Dior 👽 — Built around creativity.</footer>
+</body>
+</html>
